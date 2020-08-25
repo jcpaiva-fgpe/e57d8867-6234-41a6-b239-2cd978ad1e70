@@ -1,3 +1,3 @@
-def vol_shell(r1, r2):
+def _profit(info):
     # YOUR CODE HERE
     return []
