@@ -1,0 +1,1 @@
+{"id":"cb7ec355-57a2-46d0-b095-68f502a7c874","name":"Test Rule","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["7898561c-b2ca-4ddc-b223-8a87a41f6480"]}],"criteria":{"conditions":[],"junctors":[]},"actions":[{"type":"GIVE","parameters":["133d992e-7c8b-4fdb-9768-0d84911fce46"]}]}
