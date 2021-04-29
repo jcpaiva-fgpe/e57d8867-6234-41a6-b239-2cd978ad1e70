@@ -1,0 +1,2 @@
+arr = [ int(arr_temp) for arr_temp in input().strip().split(' ') ]
+print( max(arr) )
