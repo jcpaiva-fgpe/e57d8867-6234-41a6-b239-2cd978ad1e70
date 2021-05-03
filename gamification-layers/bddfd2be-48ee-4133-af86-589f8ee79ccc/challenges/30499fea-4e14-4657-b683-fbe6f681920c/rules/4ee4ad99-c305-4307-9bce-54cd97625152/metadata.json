@@ -1,0 +1,1 @@
+{"id":"4ee4ad99-c305-4307-9bce-54cd97625152","name":"[LOCK] Sith Challenge","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["30499fea-4e14-4657-b683-fbe6f681920c"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["bd525543-6b13-4248-8af7-1b5a5bfb185c","state","LOCKED"]}]}
