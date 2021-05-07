@@ -1,1 +1,1 @@
-{"id":"2570252c-cac2-45c0-ba40-e696948881bc","name":"JR","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["5d307740-5b9b-4d1f-a496-520dda7f0cde"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLANGE","5d307740-5b9b-4d1f-a496-520dda7f0cde","state","LOCKED"]}]}
+{"id":"2570252c-cac2-45c0-ba40-e696948881bc","name":"JR","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["5d307740-5b9b-4d1f-a496-520dda7f0cde"]}],"criteria":{},"actions":[]}
