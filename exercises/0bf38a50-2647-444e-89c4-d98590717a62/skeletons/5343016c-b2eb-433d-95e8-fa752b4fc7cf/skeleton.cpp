@@ -1,3 +1,1 @@
-int bitRotate(int n, int m, bool d) {
-    # your code here
-}
+// your code here
