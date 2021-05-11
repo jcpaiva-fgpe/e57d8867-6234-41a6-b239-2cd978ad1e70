@@ -1,0 +1,1 @@
+{"id":"5ef2b7b8-781c-4ae0-a8cd-16ab3b01f311","name":"Death Star Rule","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["a66ba5ca-055f-4f49-97db-8d389db067c4"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["83755b16-9482-49da-a621-b324634046a3"]}]}
