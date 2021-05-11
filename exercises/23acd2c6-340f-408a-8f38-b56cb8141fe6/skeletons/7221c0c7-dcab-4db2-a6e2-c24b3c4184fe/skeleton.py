@@ -1,2 +1,1 @@
-def final_price(n):
-	#YOUR CODE HERE
+#YOUR CODE HERE
