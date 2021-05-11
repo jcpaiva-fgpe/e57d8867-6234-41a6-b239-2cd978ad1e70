@@ -1,0 +1,1 @@
+{"id":"18c00db3-defb-4334-b304-615a475f619e","name":"Final Attack","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["d82932f8-2f60-4309-99b0-f762b601a0f2"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["188df43b-f893-4987-8f75-b6cc7c7d8656"]}]}
