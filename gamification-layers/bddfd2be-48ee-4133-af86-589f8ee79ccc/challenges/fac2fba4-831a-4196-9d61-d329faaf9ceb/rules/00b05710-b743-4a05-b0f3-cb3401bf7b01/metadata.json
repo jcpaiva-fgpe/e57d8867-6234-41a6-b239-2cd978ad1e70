@@ -1,0 +1,1 @@
+{"id":"00b05710-b743-4a05-b0f3-cb3401bf7b01","name":"Jedi Rule","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["fac2fba4-831a-4196-9d61-d329faaf9ceb"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","f0041d2b-2777-405c-8392-b7afc4a37988","state","LOCKED"]}]}
