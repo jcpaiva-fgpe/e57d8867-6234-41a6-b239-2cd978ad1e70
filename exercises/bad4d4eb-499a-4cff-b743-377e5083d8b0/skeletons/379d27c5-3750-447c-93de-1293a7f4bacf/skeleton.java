@@ -1,3 +1,1 @@
-public static String moran(int n) {
-	// your code here
-}
+// your code here
