@@ -1,3 +1,1 @@
-string isValidHexCode(string str) {
-    # your code here
-}
+// your code here
