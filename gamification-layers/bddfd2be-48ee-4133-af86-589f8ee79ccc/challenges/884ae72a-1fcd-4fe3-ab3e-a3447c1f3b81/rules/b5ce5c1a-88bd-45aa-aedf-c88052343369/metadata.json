@@ -1,0 +1,1 @@
+{"id":"b5ce5c1a-88bd-45aa-aedf-c88052343369","name":"Unlock Death Star","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["884ae72a-1fcd-4fe3-ab3e-a3447c1f3b81"]}],"criteria":{},"actions":[]}
