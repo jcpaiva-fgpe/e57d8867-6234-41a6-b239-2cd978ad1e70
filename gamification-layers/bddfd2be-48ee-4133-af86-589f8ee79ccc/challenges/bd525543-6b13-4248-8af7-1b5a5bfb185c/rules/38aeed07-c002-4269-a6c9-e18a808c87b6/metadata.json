@@ -1,1 +1,0 @@
-{"id":"38aeed07-c002-4269-a6c9-e18a808c87b6","name":"Sith Rule 2","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["bd525543-6b13-4248-8af7-1b5a5bfb185c"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":[]}]}
