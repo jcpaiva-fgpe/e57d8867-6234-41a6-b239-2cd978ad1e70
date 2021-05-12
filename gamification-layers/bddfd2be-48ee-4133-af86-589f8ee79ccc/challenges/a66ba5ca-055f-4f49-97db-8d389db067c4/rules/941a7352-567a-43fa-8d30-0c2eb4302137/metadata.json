@@ -1,0 +1,1 @@
+{"id":"941a7352-567a-43fa-8d30-0c2eb4302137","name":"Unlock Rebels Challenge","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["a66ba5ca-055f-4f49-97db-8d389db067c4"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","fe6d08c3-8d5c-4939-a8b3-942d7e92c14a","state","OPENED"]}]}
