@@ -1,3 +1,1 @@
-int josephus(int n, int i){
-    # your code here
-}
+// your code here
