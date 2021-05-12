@@ -1,0 +1,1 @@
+{"id":"48498b4b-8229-4a40-8f7b-c4c6e64346c1","name":"Rebels Badge","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["fe6d08c3-8d5c-4939-a8b3-942d7e92c14a"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["31963dcc-d1a2-4577-83d6-248b2cb5f527"]}]}
