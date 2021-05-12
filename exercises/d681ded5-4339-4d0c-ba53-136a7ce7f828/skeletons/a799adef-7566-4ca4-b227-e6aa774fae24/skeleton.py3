@@ -1,2 +1,1 @@
-def fibonacci(n):
-	# YOUR CODE HERE
+# YOUR CODE HERE
