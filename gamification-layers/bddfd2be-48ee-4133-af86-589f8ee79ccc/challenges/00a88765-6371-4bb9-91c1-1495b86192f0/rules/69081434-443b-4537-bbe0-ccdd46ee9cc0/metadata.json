@@ -1,0 +1,1 @@
+{"id":"69081434-443b-4537-bbe0-ccdd46ee9cc0","name":"Repress Badge","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["00a88765-6371-4bb9-91c1-1495b86192f0"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["81c94263-54b8-4644-aed6-610482eea424"]}]}
