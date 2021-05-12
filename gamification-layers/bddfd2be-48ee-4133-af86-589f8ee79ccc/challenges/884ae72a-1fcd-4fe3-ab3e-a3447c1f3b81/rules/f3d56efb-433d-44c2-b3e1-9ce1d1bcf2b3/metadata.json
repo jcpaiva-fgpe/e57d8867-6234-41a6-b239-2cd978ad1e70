@@ -1,0 +1,1 @@
+{"id":"f3d56efb-433d-44c2-b3e1-9ce1d1bcf2b3","name":"Unlock Repress","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["884ae72a-1fcd-4fe3-ab3e-a3447c1f3b81"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","00a88765-6371-4bb9-91c1-1495b86192f0","state","OPENED"]}]}
