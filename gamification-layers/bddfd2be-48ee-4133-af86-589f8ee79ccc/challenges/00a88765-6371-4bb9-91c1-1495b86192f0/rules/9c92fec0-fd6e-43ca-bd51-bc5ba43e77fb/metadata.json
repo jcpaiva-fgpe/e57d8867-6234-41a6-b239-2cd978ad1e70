@@ -1,0 +1,1 @@
+{"id":"9c92fec0-fd6e-43ca-bd51-bc5ba43e77fb","name":"Unlock Race","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["00a88765-6371-4bb9-91c1-1495b86192f0"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","6008a60c-426c-4296-b8b8-9c3d8b458c8b","state","OPENED"]}]}
