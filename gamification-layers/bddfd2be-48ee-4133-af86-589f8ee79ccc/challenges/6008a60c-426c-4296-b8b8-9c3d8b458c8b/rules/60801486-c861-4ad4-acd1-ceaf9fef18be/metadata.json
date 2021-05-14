@@ -1,0 +1,1 @@
+{"id":"60801486-c861-4ad4-acd1-ceaf9fef18be","name":"Parsec Run Rule","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["6008a60c-426c-4296-b8b8-9c3d8b458c8b"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["7b22e717-54cf-4f7b-9341-bf630e61a1c0"]}]}
