@@ -1,0 +1,1 @@
+{"id":"9ff391f8-32a7-43dd-aea8-28343a77449a","name":"[Unlock] most powerful wizard","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["980736ae-26e9-4fa5-9043-783e00116efc"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","0fb885fa-9761-4a88-b52c-ca36954cca25","state","OPENED"]}]}
