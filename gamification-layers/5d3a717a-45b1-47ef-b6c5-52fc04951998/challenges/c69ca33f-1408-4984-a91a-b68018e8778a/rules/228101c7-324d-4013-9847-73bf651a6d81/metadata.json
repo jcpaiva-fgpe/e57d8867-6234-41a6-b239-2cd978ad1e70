@@ -1,0 +1,1 @@
+{"id":"228101c7-324d-4013-9847-73bf651a6d81","name":"[Unlock] Triwizard Tournament","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["c69ca33f-1408-4984-a91a-b68018e8778a"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","5943c9db-45da-4b10-8f0d-b618fd23bee9","state","OPENED"]}]}
