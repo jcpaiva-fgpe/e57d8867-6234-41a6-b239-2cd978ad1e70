@@ -1,0 +1,1 @@
+{"id":"2a22c5df-c8ec-4cdc-b8b5-b4ecb891d72e","name":"[Unlock] he who must not be named","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["183cdcc1-8ca1-4d75-9e75-b1e09e3640b7"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","183cdcc1-8ca1-4d75-9e75-b1e09e3640b7","state","OPENED"]}]}
