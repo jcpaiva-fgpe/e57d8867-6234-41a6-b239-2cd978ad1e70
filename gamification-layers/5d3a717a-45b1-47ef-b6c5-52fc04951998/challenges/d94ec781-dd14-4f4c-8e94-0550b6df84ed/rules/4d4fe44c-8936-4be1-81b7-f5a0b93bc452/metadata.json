@@ -1,0 +1,1 @@
+{"id":"4d4fe44c-8936-4be1-81b7-f5a0b93bc452","name":"[Lock] help lord dark","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["d94ec781-dd14-4f4c-8e94-0550b6df84ed"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","9afdd09e-b532-462b-86f7-b436622ba059","state","LOCKED"]}]}
