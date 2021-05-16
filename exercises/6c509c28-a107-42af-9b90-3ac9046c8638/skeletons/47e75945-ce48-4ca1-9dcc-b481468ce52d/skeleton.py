@@ -1,2 +1,1 @@
-def check_in(guest):
-	#YOUR CODE HERE
+#YOUR CODE HERE
