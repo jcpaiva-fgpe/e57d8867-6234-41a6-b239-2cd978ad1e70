@@ -1,0 +1,1 @@
+{"id":"5371e6ea-d16c-4140-aed3-360ba3d9bf58","name":"[Unlock] Quidditch Cup","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["183cdcc1-8ca1-4d75-9e75-b1e09e3640b7"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","980736ae-26e9-4fa5-9043-783e00116efc","state","OPENED"]}]}
