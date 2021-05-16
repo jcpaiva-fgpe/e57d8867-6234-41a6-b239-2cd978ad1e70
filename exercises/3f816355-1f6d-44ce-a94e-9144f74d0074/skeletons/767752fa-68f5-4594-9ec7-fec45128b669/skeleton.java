@@ -1,3 +1,1 @@
-public static void main(String[] args) {
-	// your code here
-}
+// your code here
