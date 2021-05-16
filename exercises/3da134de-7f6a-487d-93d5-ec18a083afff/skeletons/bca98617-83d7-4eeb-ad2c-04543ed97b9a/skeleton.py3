@@ -1,2 +1,1 @@
-for x in word:
-    # YOUR CODE HER
+# YOUR CODE HER
