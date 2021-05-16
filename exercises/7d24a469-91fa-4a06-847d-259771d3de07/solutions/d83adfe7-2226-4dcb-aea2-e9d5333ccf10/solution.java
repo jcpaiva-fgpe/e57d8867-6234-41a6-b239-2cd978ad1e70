@@ -2,7 +2,7 @@ public static void main(String[] args) {
     double lun, lar, alt;
     double Abase, Alat, Atot;
     double V;
-    Scanner s = new Scanner(System.out);
+    Scanner s = new Scanner(System.in);
     lun = s.nextDouble();
     lar = s.nextDouble();
     alt = s.nextDouble();
