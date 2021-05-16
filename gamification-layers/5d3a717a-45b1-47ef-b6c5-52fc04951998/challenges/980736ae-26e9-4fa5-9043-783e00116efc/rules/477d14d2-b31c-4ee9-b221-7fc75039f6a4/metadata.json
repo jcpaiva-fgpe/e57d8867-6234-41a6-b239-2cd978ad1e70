@@ -1,0 +1,1 @@
+{"id":"477d14d2-b31c-4ee9-b221-7fc75039f6a4","name":"[Lock] triwizard","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["980736ae-26e9-4fa5-9043-783e00116efc"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","5943c9db-45da-4b10-8f0d-b618fd23bee9","state","LOCKED"]}]}
