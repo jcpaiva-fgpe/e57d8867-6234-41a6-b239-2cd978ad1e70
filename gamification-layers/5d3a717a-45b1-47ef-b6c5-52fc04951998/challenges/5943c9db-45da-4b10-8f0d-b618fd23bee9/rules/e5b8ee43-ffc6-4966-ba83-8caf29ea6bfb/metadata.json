@@ -1,0 +1,1 @@
+{"id":"e5b8ee43-ffc6-4966-ba83-8caf29ea6bfb","name":"[Lock] quidditch","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["5943c9db-45da-4b10-8f0d-b618fd23bee9"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","980736ae-26e9-4fa5-9043-783e00116efc","state","LOCKED"]}]}
