@@ -1,0 +1,1 @@
+{"id":"70f2a7ba-f68a-4571-9ba2-7b3c7da3b306","name":"[Unlock] help Dark Lord","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["1fa4ca66-3870-490d-9762-5caa9c53d6b1"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","9afdd09e-b532-462b-86f7-b436622ba059","state","OPENED"]}]}
