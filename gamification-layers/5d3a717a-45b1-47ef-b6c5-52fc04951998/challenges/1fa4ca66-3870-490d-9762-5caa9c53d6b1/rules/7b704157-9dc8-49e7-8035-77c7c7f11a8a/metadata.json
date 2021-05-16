@@ -1,0 +1,1 @@
+{"id":"7b704157-9dc8-49e7-8035-77c7c7f11a8a","name":"[Unlock] help Harry","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["1fa4ca66-3870-490d-9762-5caa9c53d6b1"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","d94ec781-dd14-4f4c-8e94-0550b6df84ed","state","OPENED"]}]}
