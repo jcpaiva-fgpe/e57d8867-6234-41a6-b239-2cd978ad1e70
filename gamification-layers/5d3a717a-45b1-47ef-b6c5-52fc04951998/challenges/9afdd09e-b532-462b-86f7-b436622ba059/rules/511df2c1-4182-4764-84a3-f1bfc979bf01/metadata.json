@@ -1,0 +1,1 @@
+{"id":"511df2c1-4182-4764-84a3-f1bfc979bf01","name":"[Lock] help Harry","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["9afdd09e-b532-462b-86f7-b436622ba059"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","d94ec781-dd14-4f4c-8e94-0550b6df84ed","state","LOCKED"]}]}
