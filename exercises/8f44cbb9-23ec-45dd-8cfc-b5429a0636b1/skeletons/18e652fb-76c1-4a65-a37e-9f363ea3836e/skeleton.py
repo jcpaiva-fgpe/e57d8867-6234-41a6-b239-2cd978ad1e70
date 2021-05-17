@@ -1,2 +1,1 @@
-def harshad(n):
-	#YOUR CODE HERE
+#YOUR CODE HERE
