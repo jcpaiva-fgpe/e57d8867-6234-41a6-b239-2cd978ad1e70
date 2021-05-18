@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class template {
+public class solution {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         int number = reader.nextInt();
