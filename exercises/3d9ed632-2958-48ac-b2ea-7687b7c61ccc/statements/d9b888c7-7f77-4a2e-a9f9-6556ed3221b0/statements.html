@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Josephus Problem
+    </title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Josephus Problem</h1>
+
+    <p>This classic problem dates back to Roman times. There are 41 soldiers arranged in a circle. Every third soldier is to be killed by their captors, continuing around the circle until only one soldier remains. He is to be freed. Assuming you would like to stay alive, at what position in the circle would you stand? <br><br>
+    Generalize this problem by writing a function that accepts the number of soldiers N and the interval at which they are killed i and returns the position of the fortunate survivor. <br><br>
+	<b>Notes</b> <br>
+	Assume the positions are numbered 1 to n going clockwise around the circle. <br>
+	If the interval is 3, the first soldiers to die are at positions 3, 6, and 9.</p>
+
+    <h3>Input</h3>
+    <p>The first line of input contains the number of soldiers N and the interval at which they are killed i.</p>
+
+    <h3>Output</h3>
+    <p>The first line contains the position of the fortunate survivor.</p>
+
+    <span style="display:block; height: 30px;"></span>
+
+    <table cellspacing="20px" style="width:60%; border: 1px solid black; border-collapse: collapse;">
+      <tr>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Sample Input</th>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Sample Output</th>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">41 3</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">31</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">35 11</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">18</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">11 1</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">11</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2 2</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+      </tr>
+    </table>
+  </body>
+</html>
