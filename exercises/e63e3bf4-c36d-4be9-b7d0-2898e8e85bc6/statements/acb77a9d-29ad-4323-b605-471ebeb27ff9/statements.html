@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Pascal’s Triangle
+    </title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Pascal’s Triangle</h1>
+
+    <p>
+      Your task is to write a function to compute the value of a given position in Pascal's Triangle. <br>
+      The way to compute any given position's value is to add up the numbers to the position's right and left in the preceding row. For instance, to compute the middle number in the third row, you add 1 and 1; the sides of the triangle are always 1 because you only add the number to the upper left or the upper right (there being no second number on the other side). <br>
+      The program should prompt the user to input a row and a position in the row. The program should ensure that the input is valid before computing a value for the position.
+    </p>
+
+    <h3>Input</h3>
+    <p>The first line of input contains row’s number and a position along the row.</p>
+
+    <h3>Output</h3>
+    <p>The first line contains the value of a given position in Pascal's Triangle.</p>
+
+    <span style="display:block; height: 30px;"></span>
+
+    <table cellspacing="20px" style="width:60%; border: 1px solid black; border-collapse: collapse;">
+      <tr>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Sample Input</th>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Sample Output</th>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">5 2</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4 3</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">10 4</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">84</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">5 7</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Invalid entry!</td>
+      </tr>
+    </table>
+  </body>
+</html>
