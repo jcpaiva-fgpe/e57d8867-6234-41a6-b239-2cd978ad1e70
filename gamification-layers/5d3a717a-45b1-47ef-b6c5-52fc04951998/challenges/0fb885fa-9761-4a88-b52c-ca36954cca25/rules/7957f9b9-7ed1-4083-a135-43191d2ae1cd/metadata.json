@@ -1,0 +1,1 @@
+{"id":"7957f9b9-7ed1-4083-a135-43191d2ae1cd","name":"Challenge Best Wizard Completed","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["0fb885fa-9761-4a88-b52c-ca36954cca25"]}],"criteria":{},"actions":[{"type":"GIVE","parameters":["8955e9aa-df35-4081-bce8-96aed54f1885"]}]}
