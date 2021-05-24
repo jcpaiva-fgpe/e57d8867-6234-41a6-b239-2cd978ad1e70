@@ -1,0 +1,1 @@
+{"id":"c2487bf3-9f38-4254-ba43-df8f66cd684b","name":"Unlock Challenge 3","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["0af7f257-9323-482a-9bb2-a6509d487830"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","7be00488-8f78-4d9f-b9d3-f4632652f49f","state","OPENED"]}]}
