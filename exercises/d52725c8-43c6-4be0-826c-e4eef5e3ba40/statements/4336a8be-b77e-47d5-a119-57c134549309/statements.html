@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Kaprekar's Constant
+    </title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">
+    Kaprekar's Constant
+	</h1>
+
+    <p>
+    	6174 is known as one of Kaprekar's constants, after the Indian mathematician D. R. Kaprekar. Number 6174 is notable for the following rule:</br>
+1. Take any four-digit number, using at least two different digits (leading zeros are allowed). </br>
+2. Arrange the digits in descending and then in ascending order to get two four-digit
+numbers, adding leading zeros if necessary.</br>
+3. Subtract the smaller number from the bigger number. </br>
+4. Go back to step 2 and repeat.</br>
+The above process, known as Kaprekar's routine, will always reach its fixed point, 6174, in at most 7 iterations. Once 6174 is reached, the process will continue yielding 7641 – 1467 = 6174. For example, choose 3524:</br>
+5432 - 2345 = 3087 </br>
+8730 - 0378 = 8352 </br>
+8532 - 2358 = 6174 </br>
+7641 - 1467 = 6174</br>
+Your task is to write a function that will return the number of times it will take to get from a number to 6174 (the above example would equal 3).</br>
+(1)5432 - 2345 = 3087, </br>
+(2)8730 - 0378 = 8352, </br>
+(3)8532 - 2358 = 6174</br>
+495 would produce the following: 4950 to 9540 - 459, 9081 to 9810 - 189, 9621 to 9621 - 1269, 8352 to 8532 - 2358 answer: 4
+For a 2 digit number, the following would be produced (stating with number 10 -> 100):
+100 to 100 - 1, 990 to 990 - 99, 8910 to 9810 - 189, 9621 to 9621 - 1269, 8352 to 8532 - 2358 answer: 5
+    </p>
+	<h3>Notes</h3>
+	If the subtracted number is less than 1000, add an extra zero to that number. The number 1111 will equal 0000, so this number (1111) is invalid.
+    <h3>Input</h3>
+    <p>
+	The first line of input contains a number.
+	</p>
+
+    <h3>Output</h3>
+    <p>
+The first line contains the number of times it will take to get from a number to 6174.
+	</p>
+
+    <span style="display:block; height: 30px;"></span>
+
+    <table cellspacing="20px" style="width:60%; border: 1px solid black; border-collapse: collapse;">
+      <tr>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        Sample Input
+    	</th>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        Sample Output
+    	</th>
+      </tr>
+
+
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        6621
+    	</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        5
+    	</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        6554
+    </td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        4
+    	</td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        1234
+    	</td>
+        <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">
+        3
+    </td>
+      </tr>
+    </table>
+  </body>
+</html>
