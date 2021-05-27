@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Costante di Kaprekar
+    </title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">
+    Costante di Kaprekar
+</h1>
+
+    <p>
+    6174 è nota come una delle costanti di Kaprekar, dal nome del matematico indiano D. R. Kaprekar. Il numero 6174 è degno di nota per la seguente regola: </br>
+1. Prendere qualsiasi numero di quattro cifre, utilizzando almeno due cifre diverse (sono consentiti gli zeri iniziali). </br>
+2. Disporre le cifre in ordine decrescente e poi in ordine crescente per ottenere due quattro cifre
+numeri, aggiungendo zeri iniziali se necessario.</br>
+3. Sottrai il numero più piccolo dal numero più grande. </br>
+4. Torna al passaggio 2 e ripeti.</br>
+Il suddetto processo, noto come routine di Kaprekar, raggiungerà sempre il suo punto fisso, 6174, in un massimo di 7 iterazioni. Una volta raggiunto 6174, il processo continuerà a produrre 7641 - 1467 = 6174. Ad esempio, scegli 3524: </br>
+5432 - 2345 = 3087 </br>
+8730-0378 = 8352 </br>
+8532 - 2358 = 6174 </br>
+7641 - 1467 = 6174 </br>
+Il tuo compito è scrivere una funzione che restituisca il numero di volte necessario per passare da un numero a 6174 (l'esempio sopra sarebbe uguale a 3). </br>
+(1)5432 - 2345 = 3087, </br>
+(2)8730 - 0378 = 8352, </br>
+(3)8532 - 2358 = 6174</br>
+495 produrrebbe quanto segue: da 4950 a 9540 - 459, da 9081 a 9810 - 189, da 9621 a 9621 - 1269, da 8352 a 8532 - 2358 risposta: 4
+Per un numero di 2 cifre, verrebbe prodotto quanto segue (indicando con il numero 10 -> 100):
+Da 100 a 100 - 1, da 990 a 990 - 99, da 8910 a 9810 - 189, da 9621 a 9621 - 1269, da 8352 a 8532 - 2358 risposta: 5
+    </p>
+<h3> Note </h3>
+Se il numero sottratto è inferiore a 1000, aggiungi uno zero in più a quel numero. Il numero 1111 sarà uguale a 0000, quindi questo numero (1111) non è valido.
+    <h3>Ingresso</h3>
+    <p>
+La prima riga di input contiene un numero.
+</p>
+
+    <h3>Uscita</h3>
+    <p>
+La prima riga contiene il numero di volte necessario per passare da un numero a 6174.
+</p>
+
+    <span style = "display: block; height: 30px;"> </span>
+
+    <table cellspacing="20px" style="width:60%; border: 1px nero pieno; border-collapse: crolla;">
+      <tr>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: crolla;">
+        Input di esempio
+    </th>
+        <th style="padding: 15px; border: 1px solid black; border-collapse: crolla;">
+        Output di esempio
+    </th>
+      </tr>
+
+
+      <tr>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        6621
+    </td>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        5
+    </td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        6554
+    </td>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        4
+    </td>
+      </tr>
+      <tr>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        1234
+    </td>
+        <td style="padding: 15px; border: 1px nero pieno; border-collapse: crolla;">
+        3
+    </td>
+      </tr>
+    </table>
+  </body>
+</html>
