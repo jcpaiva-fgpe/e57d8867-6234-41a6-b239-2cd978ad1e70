@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> Distanza di Hamming </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Distanza di Hamming</h1>
+
+	    <p>Il tuo compito è scrivere una funzione che, date due stringhe come input, calcoli la distanza di Hamming tra due filamenti di DNA. Il tuo corpo è costituito da cellule che contengono DNA. Quelle cellule si consumano regolarmente e devono essere sostituite, cosa che ottengono dividendosi in cellule figlie. In effetti, il corpo umano medio sperimenta circa 10 quadrilioni di divisioni cellulari in una vita! Quando le cellule si dividono, anche il loro DNA si replica. A volte durante questo processo si verificano degli errori e singoli pezzi di DNA vengono codificati con le informazioni errate. Se confrontiamo due filamenti di DNA e contiamo le differenze tra loro, possiamo vedere quanti errori si sono verificati. Questo è noto come &quot;distanza di Hamming&quot;.<br> Leggiamo il DNA usando le lettere C, A, G e T. Due filamenti potrebbero assomigliare a questo: <br>GAGCCTACTAACGGGAT <br>CATCGTAATGACGGCCT <br> Hanno 7 differenze, e quindi la distanza di Hamming è 7. <br>Nota La distanza di Hamming è definita solo per sequenze di uguale lunghezza, quindi un tentativo di calcolarlo tra sequenze di lunghezze diverse non dovrebbe funzionare.</p><h3>Input</h3> <p>La prima riga di input contiene una stringa A. La prima riga di input contiene una stringa B.</p><h3>Output</h3> <p>La prima riga mostra la distanza di Hamming tra due stringhe o &quot;Wrong</p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>GAGCCTACTAACGGGAT <br>CATCGTAATGACGGCCT</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>7</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>GAGCCTACTAACGGGAT <br>CGTCGTAATGACAGCCTT</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Wrong Input!</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>GAGCCTACTAACGGGAT <br>GAGCGTAATAACGGCCT</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>4</td>
+	        	</tr></table>
+	  </body>
+	</html>
