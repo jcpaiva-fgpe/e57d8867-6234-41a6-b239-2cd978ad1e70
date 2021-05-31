@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> Cardboard Boxes Game  </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Cardboard Boxes Game </h1>
+
+	    <p>You came back from a shoes store.<br> After putting away all the shoes, you are left with a lot of cardboard boxes, which you want to save for later use.<br> So you take one bag and stuff all the others into it.<br>  In doing so, you realize that there are various ways of nesting the boxes, with all boxes viewed as identical.<br>  If we use a matching pair of parentheses to represent a box, the ways are: </br> For 1 box, there's one way: </br>[ ] <- A box  </br>For 2 boxes, there is one way:</br> [ [ ] ]  <- one box in another  </br>For 3 boxes, there is one way: </br>[ [ [ ] ] ]  <- 3 boxes nested Russian doll style </br>[ [ ] [ ] ] <- 2 boxes side by side, inside the third</br>  For 4 boxes, four: [ [ ] [ ] [ ] ] </br>[ [ [ ] ] [ ] ] </br>[ [ [ ] [ ] ] ]</br> [ [ [ [ ] ] ] ]   </br>Note that because all boxes are identical, the two 4-box strings [ [ [ ] ] [ ] ] and[ [ ] [ ] ] ] ] represent the same configuration.<br>  It's easy to see that each configuration for n boxes represents a n-node rooted tree, where a box is a tree node, and a box with its content forms a subtree.<br> The outermost box is the tree root.<br> Number of configurations for given n is given by OEIS A81.<br>  Task Write a program that, when given N, enumerates all ways of nesting n boxes.<br> You should use the parentheses notation above.<br>  This task asks for enumeration of trees only; for counting solutions without enumeration, that OEIS page lists various formulas, but that's not encouraged by this task, especially if implementing it would significantly increase code size.<br>  Tips You could write 3 functions: •  Boxes() •  Boxchain() •  Replace_brachets()  </p><h3>Input</h3> <p> The first line of input contains a integer N the ways of nesting n boxes.<br>  </p><h3>Output</h3> <p> The output displays N lines, each with a way of nesting n boxes.<br>   </p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>3</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>[[[]]] <br>[[][]]</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>[[[[[]]]]] <br>[[[[][]]]] <br>[[[[]][]]] <br>[[[][][]]] <br>[[[[]]][]] <br>[[[][]][]] <br>[[[]][[]]] <br>[[[]][][]] <br>[[][][][]]</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>14</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Wrong</td>
+	        	</tr></table>
+	  </body>
+	</html>
