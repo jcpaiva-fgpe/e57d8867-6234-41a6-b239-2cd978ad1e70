@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> The Fiscal Code  </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>The Fiscal Code </h1>
+
+	    <p>Each person in Italy has an unique identifying ID code issued by the national tax office after the birth registration: the Fiscal Code (Codice Fiscale).<br>  Given an object containing the personal data of a person (name, surname, gender and date of birth) return the 11 code characters as a string following these steps: 1.<br>  Generate 3 capital letters from the surname, if it has: a.<br>  At least 3 consonants then the first three consonants are used.<br> (Newman -> NWM).<br> b.<br>  Less than 3 consonants then vowels will replace missing characters in the same order they appear (Fox -> FXO | Hope -> HPO).<br> c.<br>  Less than three letters then "X" will take the third slot after the consonant and the vowel (Yu -> YUX).<br> 2.<br>  Generate 3 capital letters from the name, if it has: a.<br>  Exactly 3 consonants then consonants are used in the order they appear (Matt -> b.<br>  More than 3 consonants then first, third and fourth consonant are used (Samantha MTT).<br> -> SNT | Thomas -> TMS).<br> c.<br>  Less than 3 consonants then vowels will replace missing characters in the same order they appear (Bob -> BBO | Paula -> PLA).<br> d.<br>  Less than three letters then "X" will take the third slot after the consonant and the vowel (Al -> LAX).<br> 3.<br>  Generate 2 numbers, 1 letter and 2 numbers from date of birth and gender: a.<br>  Take the last two digits of the year of birth (1985 -> 85).<br> b.<br>  Generate a letter corresponding to the month of birth (January -> A | December -> T) using the table for conversion included in the code.<br> c.<br>  For males take the day of birth adding one zero at the start if is less than 10 (any 9th day -> 09 | any 20th day -> 20).<br> d.<br>  For females take the day of birth and sum 40 to it (any 9th day -> 49 | any 20th day -> 60).<br>  Notes •  Code letters must be uppercase.<br> •  Date of birth is given in D/M/YYYY format.<br> •  The conversion table for months is already in the starting code.<br>  </p><h3>Input</h3> <p> The first line of input contains name, surname, gender and date of birth, all separated by a space.<br>  </p><h3>Output</h3> <p> The first line contains the fiscal code.<br>        </p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Matt Edabit M 1/1/1900</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>DBTMTT00A01</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Helen Yu F 1/12/1950</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>YUXHLN50T41</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Mickey Mouse M 16/1/1928</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>MSOMKY28A16</td>
+	        	</tr></table>
+	  </body>
+	</html>
