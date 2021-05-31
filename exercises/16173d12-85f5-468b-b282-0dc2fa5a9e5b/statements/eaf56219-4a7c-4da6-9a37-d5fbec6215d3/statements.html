@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title>Bitwise Operators</title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Bitwise Operators</h1>
+
+	    <p>Inside the CPU, mathematical operations like addition, subtraction, multiplication and division are done in bit-level. To perform bit-level operations in C programming, bitwise operators are used which are explained below.<br>
+	    Bitwise AND operator & The output of bitwise AND is 1 if the corresponding bits of two operands is 1. If either bit of an operand is 0, the result of corresponding bit is evaluated to 0. It is denoted by &.<br>
+	    Bitwise OR operator | The output of bitwise OR is 1 if at least one corresponding bit of two operands is 1. It is denoted by |.<br>
+	    Bitwise XOR (exclusive OR) operator ^ The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ⨁.<br>
+	    For example, for integers 3 and 5,<br>
+	    3 = 00000011 (In Binary)<br>
+	    5 = 00000101 (In Binary)<br>
+	    <img src='example1.png'>
+	    Given set 𝑆 = {1,2,3,...,𝑛}, find:<br>
+	    • the maximum value of a&b which is less than a given integer k, where a and b (where a < b)
+are two integers from set S.<br>
+• the maximum value of a|b which is less than a given integer k, where a and b (where a < b)
+are two integers from set S.<br>
+• the maximum value of a⨁b which is less than a given integer k, where a and n (where a < b)
+are two integers from set S.
+
+	    <br>
+	    </p>
+	    <h3>Input</h3> 
+	    <p> The only line contains 2 space-separated integers, n and k, respectively.  </p>
+	    <h3>Output</h3> <p> The first line of output contains the maximum possible value of a&b.<br> The second line of output contains the maximum possible value of a|b.<br> The second line of output contains the maximum possible value of a⨁b.<br></p> 
+	    <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5 4</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>2<br>3<br>3</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>12 4</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>3<br>3<br>3</td>
+	        	</tr>
+	        <tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>11 2</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>1<br>0<br>1</td>
+	        	</tr></table>
+	  </body>
+	</html>
