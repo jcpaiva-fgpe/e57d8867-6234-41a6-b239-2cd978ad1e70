@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title>Operatori Bitwise</title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Operatori Bitwise</h1>
+
+	    <p>All'interno della CPU, le operazioni matematiche come addizione, sottrazione, moltiplicazione e divisione vengono eseguite a livello di bit. Per eseguire operazioni a livello di bit in C, vengono utilizzati operatori bit a bit che sono spiegati di seguito.<br>
+	    Operatore AND bit per bit: L'output di AND bit a bit è 1 se i bit corrispondenti di due operandi sono 1. Se uno dei due bit di un operando è 0, il risultato del bit corrispondente viene valutato a 0.<br>
+	    Operatore OR bit a bit |: L'output di OR bit a bit è 1 se almeno un bit corrispondente di due operandi è 1. È indicato con |.<br>
+	    Operatore XOR bit a bit (OR esclusivo) ^: Il risultato dell'operatore XOR bit a bit è 1 se i bit corrispondenti dei due operandi sono opposti. È indicato con ⨁.<br>
+	    Ad esempio, per gli interi 3 e 5,<br>
+	    3 = 00000011 (In Binario)<br>
+	    5 = 00000101 (In Binario)<br>
+	    <img src='example1.png'>
+	    Dato l'insieme 𝑆 = {1,2,3,...,𝑛}, trova:<br>
+	    • il valore massimo di a&b che è minore di un dato intero k, dove a e b (dove a < b) sono due numeri interi dall'insieme S<br>
+• il valore massimo di a|b che è minore di un dato intero k, dove a e b (dove a < b) sono due numeri interi dell'insieme S.<br>
+• il valore massimo di a⨁b che è minore di un dato intero k, dove a e n (dove a < b) sono due numeri interi dell'insieme S.
+
+	    <br>
+	    </p>
+	    <h3>Input</h3> 
+	    <p> L'unica riga contiene 2 interi separati da spazi, n e k.  </p>
+	    <h3>Output</h3> <p> 
+		La prima riga di output contiene il valore massimo di a&b.<br>
+		La seconda riga di output contiene il massimo valore di a|b.<br>
+		La seconda riga di output contiene il valore massimo di a⨁b.
+
+			</p> 
+	    <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5 4</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>2<br>3<br>3</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>12 4</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>3<br>3<br>3</td>
+	        	</tr>
+	        <tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>11 2</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>1<br>0<br>1</td>
+	        	</tr></table>
+	  </body>
+	</html>
