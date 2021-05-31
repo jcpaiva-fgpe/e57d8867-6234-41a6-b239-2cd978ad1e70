@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> Il codice fiscale </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Il codice fiscale</h1>
+
+	    <p>Ogni persona in Italia ha un codice identificativo univoco rilasciato dall&#39;ufficio delle imposte nazionale dopo la registrazione della nascita: il Codice Fiscale. Dato un oggetto contenente i dati personali di una persona (nome, cognome, sesso e data di nascita) restituire gli 11 caratteri del codice sotto forma di stringa seguendo questi passaggi: </br>1. Generare 3 lettere maiuscole dal cognome, se presenta:</br> a. Vengono utilizzate almeno 3 consonanti, quindi le prime tre consonanti. (Newman -&gt; NWM).</br> b. Meno di 3 consonanti quindi le vocali sostituiranno i caratteri mancanti nello stesso ordine in cui appaiono (Fox -&gt; FXO | Hope -&gt; HPO).</br> c. Meno di tre lettere quindi &quot;X&quot; occuperanno il terzo spazio dopo la consonante e la vocale (Yu -&gt; YUX).</br> 2. Genera 3 lettere maiuscole dal nome, se ha:</br> a. Esattamente 3 consonanti quindi le consonanti vengono utilizzate nell&#39;ordine in cui appaiono (Matt -&gt;</br> b. Vengono utilizzate più di 3 consonanti quindi prima, terza e quarta consonante (Samantha MTT). -&gt; SNT | Thomas -&gt; TMS).</br> c. Meno di 3 consonanti quindi le vocali sostituiranno i caratteri mancanti nello stesso ordine in cui appaiono (Bob -&gt; BBO | Paula -&gt; PLA). d. Meno di tre lettere quindi &quot;X&quot; occuperanno il terzo spazio dopo la consonante e la vocale (Al -&gt; LAX).</br> 3. Genera 2 numeri, 1 lettera e 2 numeri dalla data di nascita e sesso: </br>a. Prendi le ultime due cifre dell&#39;anno di nascita (1985 -&gt; 85).</br> b. Genera una lettera corrispondente al mese di nascita (Gennaio -&gt; A | Dicembre -&gt; T) utilizzando la tabella di conversione inclusa nel codice.</br> c. Per i maschi prendere il giorno di nascita aggiungendo uno zero all&#39;inizio se è inferiore a 10 (qualsiasi 9 ° giorno -&gt; 09 | qualsiasi 20 ° giorno -&gt; 20).</br> d. Per le femmine, prendi il giorno di nascita e somma 40 (qualsiasi 9 ° giorno -&gt; 49 | qualsiasi 20 ° giorno -&gt; 60). </br>Note </br>• Le lettere del codice devono essere maiuscole. </br>• La data di nascita è indicata nel formato G / M / AAAA.</br> • La tabella di conversione per i mesi è già nel codice di partenza.</p><h3>Input</h3> <p>La prima riga di input contiene nome, cognome, sesso e data di nascita, tutti separati da uno spazio.</p><h3>Output</h3> <p>La prima riga contiene il codice fiscale.</p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Matt Edabit M 1/1/1900</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>DBTMTT00A01</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Helen Yu F 1/12/1950</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>YUXHLN50T41</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Mickey Mouse M 16/1/1928</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>MSOMKY28A16</td>
+	        	</tr></table>
+	  </body>
+	</html>
