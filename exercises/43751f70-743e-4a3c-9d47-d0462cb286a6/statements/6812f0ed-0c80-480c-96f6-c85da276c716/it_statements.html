@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> Gioco di scatole di cartone </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Gioco di scatole di cartone</h1>
+
+	    <p>Sei tornato da un negozio di scarpe. Dopo aver messo via tutte le scarpe, ti rimangono molte scatole di cartone, che vuoi conservare per un uso successivo. Quindi prendi una borsa e ci metti dentro tutte le altre. In tal modo, ti rendi conto che ci sono vari modi per annidare le scatole, con tutte le scatole viste come uguali tra di loro. Se usiamo una coppia di parentesi corrispondente per rappresentare una scatola, le combinazioni possono essere:</br>
+	     Per 1 scatola, c&#39;è un solo modo: </br>[] <- una scatola </br>Per 2 scatole, c&#39;è un modo: </br>[[]] &lt;- una scatola in un&#39;altra</br>Per 3 scatole, c&#39;è un modo:</br> [[[]]] &lt;- 3 scatole nidificate stile bamboline russe </br>[[] []] &lt;- 2 scatole una accanto all&#39;altra, all&#39;interno della terza</br> Per 4 scatole, quattro:</br> [[] [] []]</br> [[[]] []] </br>[[[] []]]</br> [[[[]]]]</br> Nota che poiché tutte le caselle sono identiche, le due scatole a 4 caselle [[[]] []] e [[] []]]] rappresentano la stessa configurazione. È facile vedere che ogni configurazione per n scatole rappresenta un albero con radice a n nodi, dove un box è un nodo albero, e un box con il suo contenuto forma un sottoalbero. La scatola più esterna è la radice dell&#39;albero. Il numero di configurazioni per dato n è dato da OEIS A81. Attività Scrivere un programma che, quando viene fornito N, enumeri tutti i modi di nidificare n riquadri. Dovresti usare la notazione tra parentesi sopra. Questa attività richiede solo l&#39;enumerazione degli alberi; per il conteggio delle soluzioni senza enumerazione, quella pagina OEIS elenca varie formule, ma questo non è incoraggiato da questa attività, soprattutto se l&#39;implementazione aumenterebbe in modo significativo la dimensione del codice.</br> Suggerimenti Puoi scrivere 3 funzioni: • Boxes () • Boxchain () • Replace_brachets ()</p><h3>Input</h3> <p>La prima riga di input contiene un numero intero N nei modi di nidificare n riquadri.</p><h3>Output</h3> <p>L&#39;output mostra N righe, ciascuna con un modo per annidare n caselle.</p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>3</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>[[[]]] <br>[[][]]</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>[[[[[]]]]] <br>[[[[][]]]] <br>[[[[]][]]] <br>[[[][][]]] <br>[[[[]]][]] <br>[[[][]][]] <br>[[[]][[]]] <br>[[[]][][]] <br>[[][][][]]</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>14</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Wrong</td>
+	        	</tr></table>
+	  </body>
+	</html>
