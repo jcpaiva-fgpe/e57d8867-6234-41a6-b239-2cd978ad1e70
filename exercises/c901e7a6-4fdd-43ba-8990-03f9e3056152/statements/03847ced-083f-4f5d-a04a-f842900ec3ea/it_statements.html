@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+	<html>
+	  <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-16'>
+	  <head>
+	    <title> Bubble Sort </title>
+	  </head>
+	  <body>
+	    <h1 style='text-align:center;'>Bubble Sort</h1>
+
+	    <p>Bubble Sort è l&#39;algoritmo di ordinamento più semplice che funziona scambiando ripetutamente gli elementi adiacenti se sono nell&#39;ordine sbagliato.</br> Esempio:</br> Primo passaggio:</br> (5 1 4 2 8) -&gt; (1 5 4 2 8), qui l&#39;algoritmo confronta i primi due elementi e scambia da 5&gt; 1.</br> (1 5 4 2 8) -&gt; (1 4 5 2 8), Scambia da 5&gt; 4 </br>(1 4 5 2 8) -&gt; (1 4 2 5 8), Scambia da 5&gt; 2 </br>(1 4 2 5 8) -&gt; (1 4 2 5 8), Adesso , poiché questi elementi sono già in ordine (8&gt; 5), l&#39;algoritmo non li scambia. </br>Secondo passaggio:</br> (1 4 2 5 8) -&gt; (1 4 2 5 8)</br> (1 4 2 5 8) -&gt; (1 2 4 5 8), Scambia da 4&gt; 2 </br>(1 2 4 5 8) -&gt; (1 2 4 5 8)</br> (1 2 4 5 8) -&gt; (1 2 4 5 8)</br> Ora, l&#39;array è già ordinato, ma il nostro algoritmo non sa se è completato. L&#39;algoritmo necessita di un intero passaggio senza alcuno scambio per sapere che è stato ordinato.</br>Terzo passaggio:</br> (1 2 4 5 8) -&gt; (1 2 4 5 8)</br> (1 2 4 5 8) -&gt; (1 2 4 5 8)</br> (1 2 4 5 8) -&gt; (1 2 4 5 8 )</br> (1 2 4 5 8) -&gt; (1 2 4 5 8) </br>Il tuo compito è scrivere una funzione che prenda in input un array A e restituisca l&#39;array in ordine crescente, usando l&#39;algoritmo di bubble sort.</p><h3>Input</h3> <p>La prima riga contiene un numero N che è i numeri attesi da prendere in input.</br> La seconda riga contiene tutti gli N numeri divisi per lo spazio &quot;&quot; dell&#39;array A.</p><h3>Output</h3> <p>L&#39;output contiene la matrice ordinata A.</p> <span style='display:block; height: 30px;'></span>
+	    <table cellspacing='20px' style='width:60%; border: 1px solid black; border-collapse: collapse;'>
+	      <tr>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Input</th>
+	        <th style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>Sample Output</th>
+	      </tr>
+	      
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5 <br>23 45 3 46 7</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>3 7 23 45 46</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>9 <br>23 1 -43 34 56 33 -23 34 5</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>-43 -23 1 5 23 33 34 34 56</td>
+	        	</tr>
+	  	<tr>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>5 <br>3 45 23 1 0</td>
+	          	<td style='padding: 15px; border: 1px solid black; border-collapse: collapse;'>0 1 3 23 45</td>
+	        	</tr></table>
+	  </body>
+	</html>
