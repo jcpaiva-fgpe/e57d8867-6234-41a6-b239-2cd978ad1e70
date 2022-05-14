@@ -1,0 +1,1 @@
+{"id":"395e6a86-257c-4bea-90b8-0ca28c9d66f7","name":"[Unlock] Challenge 2","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["fca87a67-ab5b-4477-94f8-8e92e8f60f85"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","158885a7-4a2f-4a7b-97f2-c0cc281e0ca8","state","OPENED"]}]}
