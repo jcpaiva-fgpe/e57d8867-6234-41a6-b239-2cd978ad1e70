@@ -1,0 +1,1 @@
+{"id":"b9055e28-9644-4f9f-8373-f61f29a6df87","name":"[Unlock] Final Challenge","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["158885a7-4a2f-4a7b-97f2-c0cc281e0ca8"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","014b59e0-0188-4898-85e8-b872fb0c7af9","state","OPENED"]}]}
